@@ -1,9 +1,13 @@
 {
+  "homepage": "https://github.com/maazkhurshid60/blog-app-backend",
   "name": "blog-app-nodejs",
   "version": "1.0.0",
   "description": "This is a backend server for blog app",
   "main": "index.js",
   "scripts": {
+    "build": "npm run your-build-script", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "node index.js"
   },
   "author": "Maaz Khurshid",
@@ -16,5 +20,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.0.0",
     "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
