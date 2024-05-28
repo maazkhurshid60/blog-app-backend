@@ -5,7 +5,7 @@
   "description": "This is a backend server for blog app",
   "main": "index.js",
   "scripts": {
-    "build": "npm run your-build-script", 
+    "build": "npm run build", 
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "node index.js"
