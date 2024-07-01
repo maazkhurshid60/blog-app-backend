@@ -9,7 +9,7 @@ const userRouter = require('./routes/client/user.route');
 const cors = require('cors');
 const { authMiddleware } = require('./middlewares/auth.middleware')
 
-//Removed this line for Git Activity
+//Adding this line for Git Activity
 
 //Created an express app
 const app = express();
