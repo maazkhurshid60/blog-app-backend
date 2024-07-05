@@ -10,6 +10,8 @@ const cors = require('cors');
 const { authMiddleware } = require('./middlewares/auth.middleware')
 
 
+// Adding line for git activity
+
 
 //Created an express app
 const app = express();
