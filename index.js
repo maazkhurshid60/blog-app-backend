@@ -1,5 +1,5 @@
 const myConfigs = require('./conf/conf');
-const corsConfig = require('./conf/corsConfig'); 
+const corsConfig = require('./conf/corsConfig');
 const path = require('path');
 const express = require('express');
 const connectToDB = require('./dbConfig/connection');
@@ -8,7 +8,7 @@ const clientRouter = require('./routes/client/blog.route');
 const userRouter = require('./routes/client/user.route');
 const cors = require('cors');
 const { authMiddleware } = require('./middlewares/auth.middleware')
-// Changing this line for git Activity
+// Adding this line for git Activity
 //Created an express app
 const app = express();
 
