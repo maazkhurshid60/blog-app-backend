@@ -8,9 +8,10 @@ const clientRouter = require('./routes/client/blog.route');
 const userRouter = require('./routes/client/user.route');
 const cors = require('cors');
 const { authMiddleware } = require('./middlewares/auth.middleware')
-//Deleting  this line for git Activity
+//Adding  this line for git Activity
 //Created an express app
 const app = express();
+
 
 //Connection with DB
 connectToDB(myConfigs.mongoDBUrl);
